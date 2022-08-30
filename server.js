@@ -12886,6 +12886,9 @@ TAG[ tag_section | tag-section | tag_section ]END -------------- // [088]
 
     [219] : Stubbed in keyboard emulator system (keyemma).       // [220][219]
 
+    [220] : 1 : Added keyboard emulator numpad lookup table      // [221][220]
+          : 2 : Added keyboard emulator functions                // [221][220]
+
 *** *************************************** CHANGE_LOG [CLB] ***    [088]
 *** *************************************** CHANGE_HISTORY _ ***    [088]
 *** *************************************** MISC_DELTA_NOTES **/
@@ -17521,8 +17524,8 @@ g25_set ||10 |11 |12 |13 |14 ||  "grid cell indexes" and       :   [163][087]
 //:THIS_COMMITS_DELTA_NOTE:[085]:============================://         
 /** ******************************************************** ***         
             
-    [220] : 1 : Added keyboard emulator numpad lookup table      // [220]
-          : 2 : Added keyboard emulator functions                // [220]
+    [221] : Game now starts up zoomed in at a decent level       // [221]
+          : for setting player-sized tiles.                      // [221]
 
 *** ******************************************************** **/
 //:============================:THIS_COMMITS_DELTA_NOTE:[085]://
